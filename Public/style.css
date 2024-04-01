@@ -28,9 +28,6 @@ body {
     font-weight: 700;
 }
 
-.alert {
-    color: #ff0000;
-}
 .home-page {
     height: 80vh;
 }
@@ -54,7 +51,4 @@ body {
 }
 .social a{
     color: #ffffff;
-}
-.social i:hover {
-    scale: 2;
 }
