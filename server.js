@@ -8,14 +8,6 @@ const router = require('./router');
 
 const app = express();
 
-app.get('/data', (req, res) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://www.example.com");
-    res.setHeader("Access-Control-Allow-Header", "Content-Type");
-    res.setHeader("Access-Control-Allow-Method", "GET");
-    res.setHeader("Access-Control-Allow-Credentials", "true");
-    res.json();
-});
-
 const port = process.env.port || 3002;
 
 app.use(bodyparser.json())
